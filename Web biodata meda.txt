@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .profile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        .profile h2 {
+            margin: 0;
+        }
+        .bio-info {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bio-info h3 {
+            color: #4CAF50;
+        }
+        .bio-info p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Biodata Listya Meda</h1>
+    </header>
+
+    <div class="container">
+        <!-- Profil -->
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Foto Profil">
+            <div>
+                <h2>Nama Saya: Listya Meda</h2>
+                <p>Saya seorang siswi kelas xii SMKN 22 Jakarta dengan jurusan TKJ.</p>
+            </div>
+        </div>
+
+        <!-- Informasi Biodata -->
+        <div class="bio-info">
+            <h3>Informasi Pribadi</h3>
+            <p><strong>Nama Lengkap:</strong> Listya Meda</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Jakarta, 17 Febuari 2007</p>
+            <p><strong>Alamat:</strong> JL.Jaidi Pejaten Timur</p>
+            <p><strong>Sekolah:</strong> SMKN 22 Jakarta</p>
+            <p><strong>Kelas:</strong> XII TKJ-1</p>
+            <p><strong>Hobi:</strong> Badminton</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Ini saya buat untuk menyelesaikan ujian AAS Kejuruan.</p>
+    </footer>
+
+</body>
+</html>
